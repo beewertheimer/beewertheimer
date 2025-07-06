@@ -146,7 +146,6 @@ font-size: 2vw;
 }
 
 @media (max-width: 900px) {
-
 .sidenav{
   width: 80%;
   position:relative;
@@ -176,5 +175,13 @@ font-size: 2vw;
 }
 p{
   font-size: 20px;
+}
+
+.article article-title{
+font-size: 20px;
+}
+
+.article article-subtitle{
+  font-size: 15px;
 }
 }
