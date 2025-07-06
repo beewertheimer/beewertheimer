@@ -40,6 +40,7 @@ p {
   margin-right: auto;
   font-family: "Poppins", fixedsys, System, sans-serif;
   font-weight: 400;
+  font-size: 1.25vw;
 }
 
 a{
@@ -54,6 +55,7 @@ a:hover{
 .flex
 {
   display:flex;
+  flex-wrap: wrap;
 }
 
 .flex box{
@@ -112,6 +114,7 @@ font-size: 2vw;
 .article{
     width: 100%;
     display: flex;
+    flex-wrap:wrap;
     flex-direction: column;
     gap: 2vw;
 }
@@ -142,4 +145,36 @@ font-size: 2vw;
   display: block;
 }
 
-@media (max-width: 600px) {}
+@media (max-width: 900px) {
+
+.sidenav{
+  width: 80%;
+  position:relative;
+  margin: 2vw;
+  margin-bottom: 20%;
+  padding: 5%;
+}
+
+.sidenav title-text{
+  font-size: 50px;
+}
+
+.sidenav menu-text{
+  font-size: 25px;
+}
+
+.sidenav u{
+    text-decoration-thickness: 5px;
+    text-underline-offset: 10px;
+}
+
+.main{
+  margin-top: 10%;
+    width: 80%;
+    margin: 2vw;
+    padding: 5%;
+}
+p{
+  font-size: 20px;
+}
+}
