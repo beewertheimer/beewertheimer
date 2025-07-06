@@ -1,0 +1,119 @@
+body {
+  background-image: url("images/background.png");
+  background-size:cover;
+  margin-top: 5%;
+  margin-left: 7%;
+  font-family: "Poppins", fixedsys, System, sans-serif;
+  font-weight: 400;
+  color: black;
+  font-size: 18px;
+}
+
+center {
+  text-align: center;
+}
+
+h1 {
+  color: black;
+  font-family: "Crete Round";
+  font-weight: 800;
+}
+
+h2 {
+  color: black;
+  font-family: "Poppins";
+  font-weight: 600;
+  text-align: right;
+}
+
+h3,
+h4,
+h5 {
+  color: black;
+  font-family: "Crete Round", fixedsys, System, sans-serif;
+  font-weight: 500;
+}
+
+p {
+  color: black;
+  margin-right: auto;
+}
+
+.sidenav{
+  padding: 2vw;
+    background: white;
+    width: 16vw;
+    position:fixed;
+    
+}
+
+.sidenav title-text{
+  text-align: left;
+  font-family: "Crete Round", fixedsys, System, sans-serif;
+  font-weight: 400;
+  color: black;
+  font-size: 3vw;
+}
+
+.sidenav menu-text{
+text-decoration: none;
+font-family: "Poppins", fixedsys, System, sans-serif;
+font-weight: 500;
+color: black;
+font-size: 2vw;
+}
+
+.sidenav menu-text:hover{
+    color: gray;
+}
+
+.sidenav a{
+  text-decoration: none;
+}
+
+.sidenav u{
+    text-decoration-thickness: 0.3vw;
+    text-underline-offset: 0.6vw;
+}
+
+.main{
+    background-color: white;
+    margin-left: 25vw;
+    width: 55vw;
+    padding: 2vw;
+}
+
+.article{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.article a{
+  text-decoration: none;
+}
+
+.article img{
+    float: left;
+}
+
+.article article-title{
+  font-family: "Poppins", fixedsys, System, sans-serif;
+  font-weight: 500;
+  color: black;
+  font-size: 1.5vw;
+  margin-left: 12vw;
+  display: block;
+}
+
+.article article-subtitle{
+ font-family: "Poppins", fixedsys, System, sans-serif;
+  font-weight: 500;
+  color: black;
+  font-size: 1vw;
+  margin-left: 12vw;
+  display: block;
+}
+
+@media (max-width: 600px) {}
