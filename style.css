@@ -120,6 +120,10 @@ font-size: 2vw;
   padding-right: 2vw;
 }
 
+.main li{
+  margin-left: 5%;
+}
+
 .article{
     width: 100%;
     display: flex;
