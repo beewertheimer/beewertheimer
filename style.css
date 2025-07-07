@@ -1,6 +1,6 @@
 body {
   background-image: url("images/background.png");
-  background-size:cover;
+  background-size: 1080px;
   margin-top: 5%;
   margin-bottom: 5%;
   margin-left: 7%;
@@ -24,7 +24,6 @@ h2 {
   color: black;
   font-family: "Poppins";
   font-weight: 600;
-  text-align: right;
 }
 
 h3,
@@ -44,12 +43,12 @@ p {
 }
 
 a{
-  color: black;
+  color: #6b8050;
   text-decoration: none;
 }
 
 a:hover{
-  color:gray;
+  color:#b8c7a5;
 }
 
 .flex
@@ -87,11 +86,16 @@ font-size: 2vw;
 }
 
 .sidenav menu-text:hover{
-    color: gray;
+    color: #6b8050;
 }
 
 .sidenav a{
   text-decoration: none;
+  color: #6b8050
+}
+
+.sidenav a:hover{
+  color: #b8c7a5
 }
 
 .sidenav u{
@@ -116,11 +120,12 @@ font-size: 2vw;
     display: flex;
     flex-wrap:wrap;
     flex-direction: column;
-    gap: 2vw;
+    gap: 30px;
 }
 
 .article a{
   text-decoration: none;
+  color: #6b8050;
 }
 
 .article img{
