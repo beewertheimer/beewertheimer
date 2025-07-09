@@ -29,6 +29,8 @@ h2 {
   color: black;
   font-family: "Poppins";
   font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 h3,
@@ -37,6 +39,7 @@ h5 {
   color: black;
   font-family: "Poppins", fixedsys, System, sans-serif;
   font-weight: 500;
+  margin-top: 0;
 }
 
 p {
