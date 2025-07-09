@@ -66,7 +66,9 @@ a:hover{
   flex: 30%;
 }
 
-
+.about{
+width: 100%;
+}
 
 .sidenav{
   padding: 2vw;
@@ -160,7 +162,7 @@ font-size: 2vw;
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
 .sidenav{
   width: 80%;
   position:relative;
@@ -215,9 +217,22 @@ margin-left: 0;
 }
 
 .main img{
-  float:none;
   width: 80%;
   padding-bottom: 10%;
+  margin: auto;
+  display: block;
+}
+
+.article img{
+  float:0;
+}
+
+.about img{
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  display: block;
+  float: 0;
 }
 
 }
