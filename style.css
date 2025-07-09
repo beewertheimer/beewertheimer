@@ -62,7 +62,7 @@ a:hover{
   flex-wrap: wrap;
 }
 
-.flex box{
+.flex flex-box{
   flex: 30%;
 }
 
@@ -75,7 +75,6 @@ width: 100%;
     background: white;
     width: 16vw;
     position:fixed;
-    
 }
 
 .sidenav title-text{
@@ -139,6 +138,7 @@ font-size: 2vw;
 .article a{
   text-decoration: none;
   color: #6b8050;
+  width: 100%;
 }
 
 .article img{
@@ -160,7 +160,6 @@ font-size: 2vw;
   font-size: 15px;
   display: block;
 }
-
 
 @media (max-width: 900px) {
 .sidenav{
@@ -212,7 +211,7 @@ margin-left: 0;
   padding-bottom: 10%;
  
 }
-.flex box{
+.flex flex-box{
   flex: 100%;
 }
 
