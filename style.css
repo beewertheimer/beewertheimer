@@ -247,6 +247,10 @@ margin: 5px;
   margin-right: 5px;
 }
 
+.article a{
+  min-height: 100px;
+}
+
 .about img{
   width: 200px;
   margin-right: 1000px;
