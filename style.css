@@ -1,13 +1,12 @@
 body {
-  background-image: url("images/background.jpg");
-  background-size: 1080px;
+  margin-right: 5%;
+  margin-left: 5%;
   margin-top: 5%;
   margin-bottom: 5%;
-  margin-left: 7%;
-  font-family: "Poppins", fixedsys, System, sans-serif;
+  font-family: "Times New Roman", fixedsys, System, serif;
   font-weight: 400;
+  font-size: 14pt;
   color: black;
-  font-size: 18px;
    height: 100%;
   max-height: 100%;
    overflow: scroll;
@@ -15,264 +14,126 @@ body {
   overflow-x: hidden;
 }
 
-center {
-  text-align: center;
-}
-
-h1 {
-  color: black;
-  font-family: "Crete Round";
-  font-weight: 800;
-}
-
-h2 {
-  color: black;
-  font-family: "Poppins";
-  font-weight: 600;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-h3,
-h4,
-h5 {
-  color: black;
-  font-family: "Poppins", fixedsys, System, sans-serif;
-  font-weight: 500;
-  margin-top: 0;
-}
-
-p {
-  color: black;
-  margin-right: auto;
-  font-family: "Poppins", fixedsys, System, sans-serif;
+h1{
   font-weight: 400;
-  font-size: 1.25vw;
 }
 
-a{
-  color: #6b8050;
+h2{
+  font-weight: 400;
+  font-size: 20pt;
+}
+
+h3{
+  font-size: 16pt;
+  font-weight: 400;
+
+}
+
+h4{
+  font-size: 14pt;
+  font-weight: 400;
+  font-style: italic;
+  color: gray;
+  margin-top: -15px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+.content-container a{
   text-decoration: none;
+  color: rgb(97, 97, 97);
 }
 
-a:hover{
-  color:#b8c7a5;
+.content-container a:hover{
+  color: rgb(156, 189, 156);
 }
 
+.header-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 60%;
+}
 
-.flex
-{
-  display:flex;
+.header-container a{
+  font-size: 15pt;
+  margin-top: -200px;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 200px;
+  font-style: italic;
+  text-decoration: none;
+  color: black;
+}
+
+.header-container a:hover{
+  color: rgb(156, 189, 156);
+}
+
+.footer-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 60%;
+    margin-top: 5%;
+}
+
+.footer-container a{
+  font-size: 11pt;
+  margin-top: -200px;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 200px;
+  font-style: italic;
+  text-decoration: none;
+  color: black;
+}
+
+.footer-container a:hover{
+  color: rgb(156, 189, 156);
+}
+
+.content-container{
+  display: block;
+  margin: auto;
+  margin-top: 5%;
+  width: 80%;
+}
+
+.art-gallery img{
+  height: 300px;
+}
+
+.flex-container img{
+  width: 200px;
+  border-radius: 5px;
+  margin-bottom: -15px;
+}
+
+.flex-container{
+  margin-top: -2%;
+  display: flex;
   flex-wrap: wrap;
 }
 
-.flex flex-box{
+.flex-item{
   flex: 50%;
 }
 
-.game-image{
-  width: 100%;
+.flex-item-2{
+  flex:50%;
+  text-align: right;
 }
 
-.game-image img{
-  width: 300px;
-  float:left;
-  padding-right: 2vw;
+.flex-item-3{
+  flex: 30%;
 }
 
-.about{
-width: 100%;
-}
-
-.flex img{
-  width: 90%;
-  padding-left: 10%;
+.about-photo{
   display: block;
-  margin: auto;
+  float: right;
+width: 50%;
+  height: 100%;
 }
 
-.about p{
-  font-size: 18px;
-}
-
-.sidenav{
-  padding: 2vw;
-    background: white;
-    width: 16vw;
-    position:fixed;
-}
-
-.sidenav title-text{
-  text-align: left;
-  font-family: "Crete Round", fixedsys, System, sans-serif;
-  font-weight: 400;
-  color: black;
-  font-size: 3vw;
-}
-
-.sidenav menu-text{
-text-decoration: none;
-font-family: "Poppins", fixedsys, System, sans-serif;
-font-weight: 500;
-color: black;
-font-size: 2vw;
-}
-
-.sidenav menu-text:hover{
-    color: #6b8050;
-}
-
-.sidenav a{
-  text-decoration: none;
-  color: #6b8050
-}
-
-.sidenav a:hover{
-  color: #b8c7a5
-}
-
-.sidenav u{
-    text-decoration-thickness: 0.3vw;
-    text-underline-offset: 0.6vw;
-}
-
-.main{
-    background-color: white;
-    margin-left: 25vw;
-    width: 55vw;
-    padding: 2vw;
-}
-
-.main img{
-  float:left;
-  padding-right: 2vw;
-}
-
-.main li{
-  margin-left: 5%;
-}
-
-.article{
-    width: 100%;
-    display: flex;
-    flex-wrap:wrap;
-    flex-direction: column;
-    gap: 30px;
-}
-
-.article a{
-  text-decoration: none;
-  color: #6b8050;
-  width: 100%;
-}
-
-.article img{
-    float: left;
-}
-
-.article article-title{
-  font-family: "Poppins", fixedsys, System, sans-serif;
-  font-weight: 500;
-  color: black;
-  font-size: 20px;
-  display: block;
-}
-
-.article article-subtitle{
- font-family: "Poppins", fixedsys, System, sans-serif;
-  font-weight: 500;
-  color: black;
-  font-size: 15px;
-  display: block;
-}
-
-@media (max-width: 900px) {
-.sidenav{
-  width: 80%;
-  position:relative;
-  margin: 2vw;
-  margin-bottom: 20%;
-  padding: 5%;
-}
-
-.sidenav title-text{
-  font-size: 50px;
-}
-
-.sidenav menu-text{
-  font-size: 25px;
-}
-
-.sidenav u{
-    text-decoration-thickness: 5px;
-    text-underline-offset: 10px;
-}
-
-.main{
-    margin-top: 10%;
-    width: 80%;
-    margin: 2vw;
-    padding: 5%;
-}
-
-p{
-  font-size: 20px;
-}
-
-.article{
- margin: 0px;
-}
-
-.article article-title{
-font-size: 17px;
-}
-
-.article article-subtitle{
-  font-size: 12px;
-  padding-bottom: 5px;
- 
-}
-.flex flex-box{
-  flex: 100%;
-}
-
-.main img{
-  width: 75px;
-  padding-top: 5px;
-  float: left;
-}
-
-.about{
-margin: 5px;
-}
-
-.article img{
-  float:0;
-  margin-right: 5px;
-}
-
-.article a{
-  min-height: 100px;
-}
-
-.about img{
-  width: 200px;
-  margin-right: 1000px;
-  margin-bottom: 20px;
-}
-
-.game-image img{
-  width: 275px;
-float: 0;
-padding-bottom: 20px;
-}
-
-.flex img{
-  width: 80%;
-  display: block;
-  margin: auto;
-  text-align: center;
-  padding: 0;
-}
-
-}

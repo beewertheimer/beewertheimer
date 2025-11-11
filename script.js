@@ -1,39 +1,23 @@
 let navHTML =
-  '<div class="sidenav">' +
-      '<a href="https://beewertheimer.com">' +
-       '<title-text>' +
-          '<u>bee</u>'+ '<br>' +
-          'wertheimer'+
-        '</title-text>'+
-      '</a>'+
-      '<br>' + '<br>'+
-      '<a href="https://beewertheimer.com">' + '<menu-text>articles</menu-text>' + '</a>' + '<br>' +
-      '<a href="https://beewertheimer.com/blog">' + '<menu-text>blog</menu-text>' + '</a>' +
-      '<br>' +
-      '<a href="https://beewertheimer.com/games">' +
-        '<menu-text>games</menu-text>' + '</a>' + '<br>' +
-      '<a href="https://beewertheimer.com/about">' +
-        '<menu-text>about</menu-text>' +
-     '</a>' +
-    '</div>';
-
-  //let footerHTML =
-  //;
-
-  let fontselectionHTML = 
-'<link rel="preconnect" href="https://fonts.googleapis.com">' +
-'<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>' +
-'<link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">'
-+ '<link rel="icon" type="image/x-icon" href="images/favicon.png"/>';
+  '<div class="header-container">' +
+    '<h1>' + 'bee wertheimer' + '</h1>' +
+    '<a href="https://beewertheimer.com">' + 'published work' + '</a>' +
+    '<a href="https://beewertheimer.com/blog">' + 'blog' + '</a>' +
+    '<a href="https://beewertheimer.com/games">' + 'games' + '</a>' +
+    '<a href="https://beewertheimer.com/art">' + 'art' + '</a>' +
+    '<a href="https://beewertheimer.com/about">' + 'about' + '</a>' +
+  '</div>';
 
   if (document.getElementById("nav")) {
   document.getElementById("nav").innerHTML = navHTML;
 }
 
-if (document.getElementById("footer")) {
-  document.getElementById("footer").innerHTML = footerHTML;
-}
+let footerHTML =
+   '<div class="footer-container">' +
+    '<a href="mailto:beewertheimer@gmail.com" target="_blank">email</a>' +
+'<a href="https://bsky.app/profile/beewertheimer.com" target="_blank">bluesky</a>' +
+'<a href="https://www.linkedin.com/in/beewertheimer/" target="_blank">linkedin</a>';
 
-if (document.getElementById("fontselection")) {
-  document.getElementById("fontselection").innerHTML = fontselectionHTML;
+  if (document.getElementById("footer")) {
+  document.getElementById("footer").innerHTML = footerHTML;
 }
