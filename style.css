@@ -164,5 +164,9 @@ h4{
   float: none;
 }
 
+.content-container{
+  width: 95%;
+}
+
 }
 
