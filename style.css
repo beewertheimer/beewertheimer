@@ -54,6 +54,7 @@ h4{
     margin: auto;
     text-align: center;
     width: 60%;
+    overflow: wrap;
 }
 
 .header-container a{
@@ -133,12 +134,35 @@ h4{
 .about-photo{
   display: block;
   float: right;
-width: 50%;
+  width: 50%;
   height: 100%;
 }
 
 .article-image img{
   width: 100%;
   border-radius: 5px;
+}
+
+@media (max-width: 900px) {
+  .header-container{
+        width: 100%;
+ }
+ .flex-item{
+  flex: 100%;
+ }
+
+ .flex-item-2{
+  flex:100%;
+  text-align: left;
+}
+
+.flex-item-3{
+  flex: 100%;
+}
+
+.about-photo{
+  float: none;
+}
+
 }
 
