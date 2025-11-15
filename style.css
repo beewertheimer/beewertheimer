@@ -137,3 +137,8 @@ width: 50%;
   height: 100%;
 }
 
+.article-image img{
+  width: 100%;
+  border-radius: 5px;
+}
+
