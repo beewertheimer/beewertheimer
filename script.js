@@ -16,6 +16,7 @@ let footerHTML =
    '<div class="footer-container">' +
     '<a href="mailto:beewertheimer@gmail.com" target="_blank">email</a>' +
 '<a href="https://bsky.app/profile/beewertheimer.com" target="_blank">bluesky</a>' +
+'<a href="https://bombylls.itch.io/" target="_blank">itch</a>' +
 '<a href="https://www.linkedin.com/in/beewertheimer/" target="_blank">linkedin</a>';
 
   if (document.getElementById("footer")) {
