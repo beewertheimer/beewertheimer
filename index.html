@@ -4,95 +4,1094 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <title>bee wertheimer</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png" />
   </head>
-  <!--to do: favicon, guestbook, favorites, friends, website graveyard, articles: wings-->
+  <!--to do: about-->
   <body>
     <div id="nav"></div>
     <div class="content-container">
-      <div class="flex-container">
-        <div class="flex-item">
-          <h2>featured articles</h2>
+      <h2>/publications</h2>
+      <div id="btn-container-id">
+        <div class="btn-container">
+          <button class="btn active" onclick="filterSelection('all')">
+            show all
+          </button>
+          <button class="btn" onclick="filterSelection('features')">
+            features
+          </button>
+          <button class="btn" onclick="filterSelection('news')">news</button>
+          <button class="btn" onclick="filterSelection('reviews')">
+            reviews
+          </button>
+          <button class="btn" onclick="filterSelection('interviews')">
+            interviews
+          </button>
+          <button class="btn" onclick="filterSelection('lists')">lists</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column lists">
+        <div class="content">
+          <a
+            href="https://intothespine.com/2025/12/31/stories-of-2025/"
+            target="_blank"
+          >
+            <img
+              src="https://intothespine.com/wp-content/uploads/2025/12/Untitled-design.png"
+            />
+            <h4>Stories of 2025</h4>
+            <p><i>INTO THE SPINE / DECEMBER 31, 2025</i></p>
+          </a>
+        </div>
+      </div>
+
+      <div class="column interviews">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/skate-story-sam-eng-interview"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/avuploads/2025/12/29134151/sam-eng-logitech-1-far.jpg"
+            />
+            <h4>Sam Eng talks <i>Skate Story</i> and New York City</h4>
+            <p><i>A.V. CLUB / DECEMBER 30, 2025</i></p>
+          </a>
+        </div>
+      </div>
+
+      <div class="column features">
+        <div class="content">
           <a
             href="https://www.avclub.com/distracted-gaming-second-screen-tiktok"
             target="_blank"
           >
-            <h3>
-              distracted gaming: why nobody pays attention in multiplayer games
+            <img
+              src="https://img.pastemagazine.com/wp-content/avuploads/2025/12/19115626/distracted_Gaming_Valorant.jpg"
+            />
+            <h4>
+              Distracted gaming: Why nobody pays attention in multiplayer games
               anymore
-            </h3></a
+            </h4>
+            <p><i>A.V. CLUB / DECEMBER 20, 2025</i></p>
+          </a>
+        </div>
+      </div>
+
+      <div class="column lists">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/best-games-2025-clair-obscur-silksong-despelote"
+            target="_blank"
           >
-          <h4>a.v. club / december 20, 2025</h4>
+            <img
+              src="https://img.pastemagazine.com/wp-content/avuploads/2025/12/17114845/best_games_2025_1920.jpg"
+            />
+            <h4>The best games of 2025</h4>
+            <p><i>A.V. CLUB / DECEMBER 18, 2025</i></p>
+          </a>
+        </div>
+      </div>
+
+      <div class="column lists">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/thanksgiving-games-for-family"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/avuploads/2025/11/24162253/thanksgiving_party_games_1920.jpg"
+            />
+            <h4>
+              Keep Thanksgiving on track this year with these family-perfect
+              multiplayer games
+            </h4>
+            <p><i>A.V. CLUB / NOVEMBER 25, 2025</i></p>
+          </a>
+        </div>
+      </div>
+
+      <div class="column reviews">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/detective-games-dont-get-better-than-the-seance-of-blake-manor"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/11/10110837/blake_manor_1920.jpg"
+            />
+            <h4>
+              Detective Games Don't Get Better than
+              <i>The Séance of Blake Manor</i>
+            </h4>
+            <p><i>A.V. CLUB / NOVEMBER 10, 2025</i></p>
+          </a>
+        </div>
+      </div>
+
+      <div class="column features">
+        <div class="content">
           <a
             href="https://unwinnable.com/2025/10/31/the-absurdity-of-proving-youre-not-a-robot/"
             target="_blank"
           >
-            <h3>the absurdity of proving you're not a robot</h3></a
+            <img
+              src="https://unwinnable.com/wp-content/uploads/2025/10/im-not-a-robot-featured.png"
+            />
+            <h4>The Absurdity of Proving You're Not a Robot</h4>
+            <p><i>UNWINNABLE / OCTOBER 31, 2025</i></p>
+          </a>
+        </div>
+      </div>
+
+      <div class="column features">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/the-annual-ghost-town-pumpkin-festival-makes-halloween-special-again"
+            target="_blank"
           >
-          <h4>unwinnable / october 31, 2025</h4>
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/10/27112052/ghost_town_pumpkin_1920.jpg"
+            />
+            <h4>
+              <i>The Annual Ghost Town Pumpkin Festival</i> Makes Halloween
+              Special Again
+            </h4>
+            <p><i>A.V. CLUB / OCTOBER 27, 2025</i></p>
+          </a>
+        </div>
+      </div>
+
+      <div class="column features">
+        <div class="content">
           <a
             href="https://www.avclub.com/kid-friendly-mmos-from-free-realms-to-roblox"
             target="_blank"
           >
-            <h3>the future of kid-friendly online spaces</h3></a
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/10/13114618/roblox-main-1.jpg"
+            />
+            <h4>The Future of Kid-Friendly Online Spaces</h4>
+            <p><i>A.V. CLUB / OCTOBER 13, 2025</i></p></a
           >
-          <h4>a.v. club / october 13, 2025</h4>
+        </div>
+      </div>
 
+      <div class="column news">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/avalanche-studios-announces-layoffs-studio-closure"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/09/30163830/just-cause-avalanche.jpg"
+            />
+            <h4>Avalanche Studios Announces Layoffs, Studio Closure</h4>
+            <p><i>A.V. CLUB / SEPTEMBER 30, 2025</i></p></a
+          >
+        </div>
+      </div>
+
+      <div class="column features">
+        <div class="content">
           <a
             href="https://www.avclub.com/unlearning-productivity-with-baby-steps"
             target="_blank"
           >
-            <h3>unlearning productivity with <i>baby steps</i></h3></a
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/09/29114456/babysteps.jpg"
+            />
+            <h4>Unlearning Productivity with <i>Baby Steps</i></h4>
+            <p><i>A.V. CLUB / SEPTEMBER 29, 2025</i></p></a
           >
-          <h4>a.v. club / september 29, 2025</h4>
+        </div>
+      </div>
 
+      <div class="column news">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/i-need-the-playstation-anniversary-reeboks"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/09/29144926/psshoes.webp"
+            />
+            <h4>I Need the PlayStation Anniversary Reeboks</h4>
+            <p><i>A.V. CLUB / SEPTEMBER 29, 2025</i></p></a
+          >
+        </div>
+      </div>
+
+      <div class="column reviews">
+        <div class="content">
           <a
             href="https://www.avclub.com/consume-me-can-be-a-bit-too-autobiographical"
             target="_blank"
           >
-            <h3><i>consume me</i> can be a bit too autobiographical</h3></a
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/09/23181404/consumeme.jpg"
+            />
+            <h4><i>Consume Me</i> Can be a Bit Too Autobiographical</h4>
+            <p><i>A.V. CLUB / SEPTEMBER 24, 2025</i></p></a
           >
-          <h4>a.v. club / september 24, 2025</h4>
+        </div>
+      </div>
 
+      <div class="column lists">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/the-best-worst-dads-in-games"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/09/22165611/the-last-of-us-joel-main-1.jpg"
+            />
+            <h4>The Best Worst Dads in Games</h4>
+            <p><i>A.V. CLUB / SEPTEMBER 22, 2025</i></p></a
+          >
+        </div>
+      </div>
+
+      <div class="column news">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/six-one-indie-showcase-september-18-everything-announced"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/09/18110549/six-one-indie-showcase-edited.jpg"
+            />
+            <h4>Everything Shown At Today's Six One Indie Showcase</h4>
+            <p><i>A.V. CLUB / SEPTEMBER 18, 2025</i></p></a
+          >
+        </div>
+      </div>
+
+      <div class="column news">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/dispatch-superhero-management-game-release-date"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/09/16144106/dispatch.jpg"
+            />
+            <h4>
+              Superhero Management Game <i>Dispatch</i> Comes Out In October
+            </h4>
+            <p><i>A.V. CLUB / SEPTEMBER 16, 2025</i></p></a
+          >
+        </div>
+      </div>
+
+      <div class="column features">
+        <div class="content">
           <a
             href="https://www.avclub.com/dont-let-an-algorithm-pick-your-next-game-for-you"
             target="_blank"
           >
-            <h3>don't let an algorithm pick your next game for you</h3></a
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/09/15092532/hand-picked-recs-main.jpg"
+            />
+            <h4>Don't Let an Algorithm Pick Your Next Game for You</h4>
+            <p><i>A.V. CLUB / SEPTEMBER 15, 2025</i></p></a
           >
-          <h4>a.v. club / september 15, 2025</h4>
+        </div>
+      </div>
 
+      <div class="column news">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/the-balatro-1-1-update-is-delayed-and-its-a-good-thing"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/09/15144744/Balatro_screenshot_6.jpg"
+            />
+            <h4>
+              The <i>Balatro</i> 1.1 Update is Delayed, and It's a Good Thing
+            </h4>
+            <p><i>A.V. CLUB / SEPTEMBER 15, 2025</i></p></a
+          >
+        </div>
+      </div>
+
+      <div class="column news">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/new-astro-bot-themed-controller-is-available-for-preorder"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/09/12135726/astrobot-controller.webp"
+            />
+            <h4>
+              New <i>Astro Bot</i> Themed Controller is Available for Preorder
+            </h4>
+            <p><i>A.V. CLUB / SEPTEMBER 12, 2025</i></p></a
+          >
+        </div>
+      </div>
+
+      <div class="column news">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/gorillaz-bring-back-their-90s-flash-game-site"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/09/11155329/kongstudios.jpg"
+            />
+            <h4>Gorillaz Bring Back Their '90s Flash Game Site</h4>
+            <p><i>A.V. CLUB / SEPTEMBER 11, 2025</i></p></a
+          >
+        </div>
+      </div>
+
+      <div class="column news">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/the-best-selling-playstation-games-are-mostly-call-of-duty"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/09/10150541/codmodernwarfare.jpg"
+            />
+            <h4>The Best-Selling PlayStation Games are Mostly Call of Duty</h4>
+            <p><i>A.V. CLUB / SEPTEMBER 10, 2025</i></p></a
+          >
+        </div>
+      </div>
+
+      <div class="column news">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/uma-musumes-most-popular-horse-has-passed-away"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/09/09152338/haru-urara-1.webp"
+            />
+            <h4><i>Uma Musume</i>'s Most Popular Horse has Passed Away</h4>
+            <p><i>A.V. CLUB / SEPTEMBER 9, 2025</i></p>
+          </a>
+        </div>
+      </div>
+
+      <div class="column news">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/hollow-knight-silksongs-most-popular-mods-make-the-game-easier"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/09/08145053/silksong-1.jpg"
+            />
+            <h4>
+              <i>Hollow Knight: Silksong</i>'s Most Popular Mods Make the Game
+              Easier
+            </h4>
+            <p><i>A.V. CLUB / SEPTEMBER 8, 2025</i></p>
+          </a>
+        </div>
+      </div>
+
+      <div class="column features">
+        <div class="content">
+          <a
+            href="https://intothespine.com/2025/09/06/grasping-for-agency/"
+            target="_blank"
+          >
+            <img
+              src="https://intothespine.com/wp-content/uploads/2025/09/house-flipper-2.jpg"
+            />
+            <h4>Grasping for Agency</h4>
+            <p><i>INTO THE SPINE / SEPTEMBER 6, 2025</i></p></a
+          >
+        </div>
+      </div>
+
+      <div class="column news">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/layoffs-announced-at-civilization-studio-firaxis-and-wildgate-publisher-dreamhaven"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/09/05121635/civ7.jpg"
+            />
+            <h4>
+              Layoffs Announced at <i>Civilization</i> Studio Firaxis and
+              <i>Wildgate</i> Publisher Dreamhaven
+            </h4>
+            <p><i>A.V. CLUB / SEPTEMBER 5, 2025</i></p>
+          </a>
+        </div>
+      </div>
+
+      <div class="column news">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/tomb-raider-series-starring-sophie-turner-starts-production-in-january"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/09/04142455/tombraider-1.webp"
+            />
+            <h4>
+              Tomb Raider Series Starring Sophie Turner Starts Production in
+              January
+            </h4>
+            <p><i>A.V. CLUB / SEPTEMBER 4, 2025</i></p>
+          </a>
+        </div>
+      </div>
+
+      <div class="column news">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/australia-did-it-is-a-new-tactical-reverse-bullet-hell-from-rami-ismail"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/09/03152537/australia.jpg"
+            />
+            <h4>
+              <i>Australia Did It</i> is a New "Tactical Reverse Bullet Hell"
+              From Rami Ismail
+            </h4>
+            <p><i>A.V. CLUB / SEPTEMBER 3, 2025</i></p></a
+          >
+        </div>
+      </div>
+
+      <div class="column reviews">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/metal-eden-should-let-go-and-embrace-the-flow"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/09/02105654/metal_eden_main.jpg"
+            />
+            <h4><i>Metal Eden</i> Should Let Go and Embrace the Flow</h4>
+            <p><i>A.V. CLUB / SEPTEMBER 2, 2025</i></p></a
+          >
+        </div>
+      </div>
+
+      <div class="column news">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/paramount-announces-a-call-of-duty-movie"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/09/02154331/CODBO7.jpeg"
+            />
+            <h4>Paramount Announces a Call of Duty Movie</h4>
+            <p><i>A.V. CLUB / SEPTEMBER 2, 2025</i></p></a
+          >
+        </div>
+      </div>
+
+      <div class="column features">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/should-you-get-a-degree-in-game-design"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/08/29110158/college_graduates_unsplash_1920.jpg"
+            />
+            <h4>Should You Get a Degree in Game Design?</h4>
+            <p><i>A.V. CLUB / AUGUST 29, 2025</i></p></a
+          >
+        </div>
+      </div>
+
+      <div class="column news">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/switch-2-sales-two-million-us"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/08/28152345/switch2.jpg"
+            />
+            <h4>The Switch 2 Is Outselling Its Predecessor, By A Lot</h4>
+            <p><i>A.V. CLUB / AUGUST 28, 2025</i></p></a
+          >
+        </div>
+      </div>
+
+      <div class="column news">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/stardew-valley-psychonauts-2-come-to-playstation-plus-in-september"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/08/27144623/psychonauts_2_1920.jpeg"
+            />
+            <h4>
+              <i>Stardew Valley</i>, <i>Psychonauts 2</i> Come to PlayStation
+              Plus in September
+            </h4>
+            <p><i>A.V. CLUB / AUGUST 27, 2025</i></p></a
+          >
+        </div>
+      </div>
+
+      <div class="column news">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/bennett-foddys-baby-steps-is-the-next-game-delayed-because-of-silksong"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/08/26145113/baby_steps_game_1920.jpg"
+            />
+            <h4>
+              Bennett Foddy's <i>Baby Steps</i> Is the Next Game Delayed Because
+              of Silksong
+            </h4>
+            <p><i>A.V. CLUB / AUGUST 26, 2025</i></p></a
+          >
+        </div>
+      </div>
+
+      <div class="column news">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/ubisoft-ceo-summoned-to-court-following-sexual-harassment-trial"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/07/03151834/ubisoft-main-1.jpg"
+            />
+            <h4>
+              Ubisoft CEO Summoned to Court Following Sexual Harassment Trial
+            </h4>
+            <p><i>A.V. CLUB / AUGUST 25, 2025</i></p></a
+          >
+        </div>
+      </div>
+
+      <div class="column features">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/how-multiplayer-games-like-valorant-could-improve-matchmaking"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/08/22084548/valorant_sage.jpeg"
+            />
+            <h4>
+              How Multiplayer Games Like <i>Valorant</i> Could Improve
+              Matchmaking
+            </h4>
+            <p><i>A.V. CLUB / AUGUST 22, 2025</i></p></a
+          >
+        </div>
+      </div>
+
+      <div class="column news">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/hollow-knight-hits-all-time-peak-player-count-sells-15-million-copies"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/08/22161134/Silksong-Screenshots-_0003_17.jpg"
+            />
+            <h4>
+              <i>Hollow Knight</i> Hits All-Time Peak Player Count, Sells 15
+              Million Copies
+            </h4>
+            <p><i>A.V. CLUB / AUGUST 22, 2025</i></p></a
+          >
+        </div>
+      </div>
+
+      <div class="column news">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/the-playstation-5-now-costs-50-more"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/08/21152050/ps5.webp"
+            />
+            <h4>The PlayStation 5 Now Costs $50 More</h4>
+            <p><i>A.V. CLUB / AUGUST 21, 2025</i></p></a
+          >
+        </div>
+      </div>
+
+      <div class="column news">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/bioshock-studio-faces-layoffs-now-led-by-ex-diablo-boss-rod-fergusson"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/08/19161352/bioshock.jpg"
+            />
+            <h4>
+              BioShock Studio Faces Layoffs, Now Led By Ex-Diablo Boss Rod
+              Fergusson
+            </h4>
+            <p><i>A.V. CLUB / AUGUST 20, 2025</i></p></a
+          >
+        </div>
+      </div>
+
+      <div class="column features">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/do-tricks-on-tracks-with-denshattack-the-train-skating-game"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/08/18171935/denshattack_main.jpg"
+            />
+            <h4>
+              Do Tricks on Tracks with <i>Denshattack!</i>, the Train Skating
+              Game
+            </h4>
+            <p><i>A.V. CLUB / AUGUST 19, 2025</i></p></a
+          >
+        </div>
+      </div>
+
+      <div class="column news">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/man-sentenced-to-federal-prison-for-spending-145k-in-company-funds-on-pokemon-cards"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/07/16165248/pokemon_pikachu_pinball_main.jpg"
+            />
+            <h4>
+              Man Sentenced to Federal Prison for Spending $145k in Company
+              Funds on Pokémon Cards
+            </h4>
+            <p><i>A.V. CLUB / AUGUST 19, 2025</i></p></a
+          >
+        </div>
+      </div>
+
+      <div class="column news">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/tomorrows-nintendo-direct-will-be-all-about-kirby-air-riders-watch-it-here"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/08/18141501/kirbyairriders.jpg"
+            />
+            <h4>Watch the <i>Kirby Air Riders</i> Nintendo Direct</h4>
+            <p><i>A.V. CLUB / AUGUST 18, 2025</i></p></a
+          >
+        </div>
+      </div>
+
+      <div class="column news">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/magic-the-gatherings-final-fantasy-decks-are-finally-available-for-a-reasonable-price"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/08/15143015/ffmtg.webp"
+            />
+            <h4>
+              <i>Magic: The Gathering</i>'s Final Fantasy Decks Are Finally
+              Available for a Reasonable Price
+            </h4>
+            <p><i>A.V. CLUB / AUGUST 15, 2025</i></p></a
+          >
+        </div>
+      </div>
+
+      <div class="column news">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/gamecubes-chibi-robo-comes-to-nintendo-switch-online"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/08/13153908/chibi_robo_switch_main.jpg"
+            />
+            <h4>
+              GameCube's <i>Chibi-Robo!</i> Comes to Nintendo Switch Online
+            </h4>
+            <p><i>A.V. CLUB / AUGUST 13, 2025</i></p></a
+          >
+        </div>
+      </div>
+
+      <div class="column news">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/new-donkey-kong-bananza-speedrun-exploit-lets-you-straight-up-fly"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/08/12160428/dk_bananza_speedrun_exploit.jpg"
+            />
+            <h4>
+              New <i>Donkey Kong Bananza</i> Speedrun Exploit Lets You Straight
+              Up Fly
+            </h4>
+            <p><i>A.V. CLUB / AUGUST 12, 2025</i></p></a
+          >
+        </div>
+      </div>
+
+      <div class="column news">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/cge-will-donate-all-harry-potter-codenames-profits-to-trans-charities"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/08/11122709/codenames_potter_main.jpg"
+            />
+            <h4>
+              CGE Will Donate All Harry Potter Codenames Profits to Trans
+              Charities
+            </h4>
+            <p><i>A.V. CLUB / AUGUST 11, 2025</i></p></a
+          >
+        </div>
+      </div>
+
+      <div class="column news">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/nintendo-announces-my-mario-a-product-line-for-young-children"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/08/08140328/my-mario-main-1.jpg"
+            />
+            <h4>
+              Nintendo Announces My Mario, a Product Line for Young Children
+            </h4>
+            <p><i>A.V. CLUB / AUGUST 8, 2025</i></p></a
+          >
+        </div>
+      </div>
+
+      <div class="column news">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/everything-announced-at-todays-nintendo-indie-world-showcase"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/08/07150636/welldweller_nintendo_showcase.jpg"
+            />
+            <h4>
+              Everything Announced at Today’s Nintendo Indie World Showcase
+            </h4>
+            <p><i>A.V. CLUB / AUGUST 7, 2025</i></p></a
+          >
+        </div>
+      </div>
+
+      <div class="column reviews">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/makeroom-is-a-sweet-treat-of-an-interior-design-game"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/08/06113118/MakeRoomTruck.jpg"
+            />
+            <h4><i>MakeRoom</i> is a Sweet Treat of an Interior Design Game</h4>
+            <p><i>A.V. CLUB / AUGUST 6, 2025</i></p></a
+          >
+        </div>
+      </div>
+
+      <div class="column news">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/japanese-speedrunning-charity-receives-legal-warning-from-nintendo"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/08/06092838/nintendo_speedrunning_RTA_main.jpeg"
+            />
+            <h4>
+              Japanese Speedrunning Charity Receives Legal Warning from Nintendo
+            </h4>
+            <p><i>A.V. CLUB / AUGUST 6, 2025</i></p>
+          </a>
+        </div>
+      </div>
+
+      <div class="column news">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/game-devs-of-color-expo-returns-in-september"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/08/06171857/game_Devs_of_color_expo_main.jpg"
+            />
+            <h4>Game Devs of Color Expo Returns in September</h4>
+            <p><i>A.V. CLUB / AUGUST 6, 2025</i></p>
+          </a>
+        </div>
+      </div>
+
+      <div class="column news">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/nintendo-raises-the-price-of-the-original-switch"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/08/04133822/nintendo_Switch_price_increase.jpeg"
+            />
+            <h4>Nintendo Raises the Price of the Original Switch</h4>
+            <p><i>A.V. CLUB / AUGUST 4, 2025</i></p>
+          </a>
+        </div>
+      </div>
+
+      <div class="column news">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/steams-video-player-gets-some-long-needed-upgrades"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/07/31160959/steam_video_player_main.jpg"
+            />
+            <h4>Steam's Video Player Gets Some Long-Needed Upgrades</h4>
+            <p><i>A.V. CLUB / JULY 31, 2025</i></p>
+          </a>
+        </div>
+      </div>
+
+      <div class="column news">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/mario-kart-world-big-update-3-lap-courses"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/04/03011604/switch_2_mario_kart_world_main.jpg"
+            />
+            <h4>
+              <i>Mario Kart World</i> Gets Big Update, 3-Lap Courses Appear More
+              Frequently
+            </h4>
+            <p><i>A.V. CLUB / JULY 30, 2025</i></p>
+          </a>
+        </div>
+      </div>
+
+      <div class="column news">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/atari-acquires-thunderful-group-and-its-five-game-studios"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/07/29162732/atari_thunderful.jpg"
+            />
+            <h4>Atari Acquires Thunderful Group and Its Five Game Studios</h4>
+            <p><i>A.V. CLUB / JULY 29, 2025</i></p></a
+          >
+        </div>
+      </div>
+
+      <div class="column news">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/hollow-knight-silksong-will-be-playable-at-gamescom-next-month"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/07/29094302/hollow_night_silksong_main.jpg"
+            />
+            <h4>
+              <i>Hollow Knight: Silksong</i> Will Be Playable at Gamescom Next
+              Month
+            </h4>
+            <p><i>A.V. CLUB / JULY 29, 2025</i></p></a
+          >
+        </div>
+      </div>
+
+      <div class="column reviews">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/fretless-the-wrath-of-riffson-is-a-sweet-riff-on-the-rhythm-rpg"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/07/25093453/IMG_2799.jpg"
+            />
+            <h4>
+              <i>Fretless: The Wrath of Riffson</i> is a Sweet Riff on the
+              Rhythm RPG
+            </h4>
+            <p><i>A.V. CLUB / JULY 25, 2025</i></p></a
+          >
+        </div>
+      </div>
+
+      <div class="column news">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/roblox-to-add-ai-age-verification-and-new-communication-features"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/07/17151809/roblox_logo_1920.jpg"
+            />
+            <h4>
+              <i>Roblox</i> to Add AI Age Verification and New Communication
+              Features
+            </h4>
+            <p><i>A.V. CLUB / JULY 17, 2025</i></p></a
+          >
+        </div>
+      </div>
+
+      <div class="column news">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/youtuber-claims-his-home-was-raided-for-reviewing-third-party-gaming-handhelds"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/07/16144555/once_were_nerd_youtube.jpg"
+            />
+            <h4>
+              YouTuber Claims His Home Was Raided for Reviewing Third-Party
+              Gaming Handhelds
+            </h4>
+            <p><i>A.V. CLUB / JULY 16, 2025</i></p></a
+          >
+        </div>
+      </div>
+
+      <div class="column news">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/whats-up-with-uma-musume-pretty-derby-the-game-taking-over-the-internet"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/07/15162033/uma_musume_1920.jpg"
+            />
+            <h4>
+              What's Up with <i>Uma Musume: Pretty Derby</i>, the Game Taking
+              Over the Internet?
+            </h4>
+            <p><i>A.V. CLUB / JULY 15, 2025</i></p></a
+          >
+        </div>
+      </div>
+
+      <div class="column news">
+        <div class="content">
+          <a
+            href="https://www.avclub.com/summer-games-done-quick-2025-raised-over-2-million-in-a-week"
+            target="_blank"
+          >
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/07/14172915/sgdq_2025_main.jpg"
+            />
+            <h4>
+              Summer Games Done Quick 2025 Raised Over $2 Million in a Week
+            </h4>
+            <p><i>A.V. CLUB / JULY 14, 2025</i></p></a
+          >
+        </div>
+      </div>
+
+      <div class="column features">
+        <div class="content">
           <a
             href="https://www.avclub.com/not-every-co-op-game-is-friendslop"
             target="_blank"
           >
-            <h3>not every co-op game is "friendslop"</h3></a
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/07/10120620/friendslop_lethal_company.jpg"
+            />
+            <h4>Not Every Co-Op Game is "Friendslop"</h4>
+            <p><i>A.V. CLUB / JULY 10, 2025</i></p></a
           >
-          <h4>a.v. club / july 10, 2025</h4>
         </div>
+      </div>
 
-        <div class="flex-item-2">
-          <h2>publications</h2>
+      <div class="column news">
+        <div class="content">
           <a
-            href="https://www.avclub.com/author/bee-wertheimer"
+            href="https://www.avclub.com/ubisoft-execs-guilty-sexual-assault-psychological-harrassment"
             target="_blank"
           >
-            <h3>a.v. club</h3></a
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/07/03151834/ubisoft-main-1.jpg"
+            />
+            <h4>
+              Three Former Ubisoft Execs Found Guilty of Sexual Assault,
+              Psychological Harassment
+            </h4>
+            <p><i>A.V. CLUB / JULY 3, 2025</i></p></a
           >
+        </div>
+      </div>
+
+      <div class="column news">
+        <div class="content">
           <a
-            href="https://unwinnable.com/author/bee-wertheimer/"
+            href="https://www.avclub.com/everwild-perfect-dark-reboot-zenimax-mmorpg-canceled-after-microsoft-layoffs"
             target="_blank"
           >
-            <h3>unwinnable</h3></a
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/07/02160503/everwild_cancelled.jpg"
+            />
+            <h4>
+              <i>Everwild</i>, Perfect Dark Reboot, Zenimax MMORPG Canceled
+              after Microsoft Layoffs
+            </h4>
+            <p><i>A.V. CLUB / JULY 2, 2025</i></p></a
           >
+        </div>
+      </div>
+
+      <div class="column news">
+        <div class="content">
           <a
-            href="https://intothespine.com/author/beewertheimer/"
+            href="https://www.avclub.com/riot-games-will-allow-esports-betting-partnerships-for-league-of-legends-and-valorant"
             target="_blank"
           >
-            <h3>into the spine</h3></a
+            <img
+              src="https://img.pastemagazine.com/wp-content/uploads/2025/07/01122426/valorant_esports_gambling.jpg"
+            />
+            <h4>
+              Riot Games Will Allow eSports Betting Partnerships for
+              <i>League of Legends</i> and <i>Valorant</i>
+            </h4>
+            <p><i>A.V. CLUB / JULY 1, 2025</i></p></a
           >
         </div>
       </div>
     </div>
+
     <div id="footer"></div>
     <script src="script.js"></script>
   </body>

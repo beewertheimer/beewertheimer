@@ -4,69 +4,131 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <title>games / bee wertheimer</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png" />
   </head>
   <body>
     <div id="nav"></div>
     <div class="content-container">
-      <div class="flex-container">
-        <div class="flex-item-3">
-          <h2>interactive fiction and games</h2>
-          <center>
-            <a href="https://bombylls.itch.io/annota-line" target="_blank"
-              ><img src="images/annotaline.jpg" />
-              <h3>annota line</h3></a
-            >
-            <h4>
-              cyberpunk visual novel about a train heist against the gods.
-            </h4>
+      <h2>/games</h2>
 
-            <a href="https://bombylls.itch.io/home" target="_blank"
-              ><img src="images/home.png" />
-              <h3>home</h3></a
-            >
-            <h4>microfiction about lostness, adolescence, and new jersey.</h4>
-          </center>
+      <div id="btn-container-id">
+        <div class="btn-container">
+          <button class="btn active" onclick="filterSelection('all')">
+            show all
+          </button>
+          <button class="btn" onclick="filterSelection('browser-based')">
+            browser-based
+          </button>
+          <button class="btn" onclick="filterSelection('executables')">
+            executables
+          </button>
         </div>
+      </div>
+    </div>
 
-        <div class="flex-item-3">
-          <h2><br /></h2>
-          <center>
-            <a href="https://organzola.itch.io/an-empty-house" target="_blank"
-              ><img src="images/anemptyhouse.gif" />
-              <h3>an empty house</h3></a
-            >
-            <h4>first-person horror-shooter about a never-ending nightmare.</h4>
-
-            <a href="https://bombylls.itch.io/gaias-brewery" target="_blank"
-              ><img src="images/gaiasbrewery.gif" />
-              <h3>gaia's brewery</h3></a
-            >
-            <h4>
-              isometric potion management simulator about heritage and identity.
-            </h4>
-          </center>
+    <div class="row">
+      <div class="column executables">
+        <div class="content">
+          <a href="https://bombylls.itch.io/annota-line" target="_blank">
+            <img src="images/annotaline.jpg" />
+            <h4>Annota Line</h4>
+            <p>
+              <i>CYBERPUNK VISUAL NOVEL ABOUT A TRAIN HEIST AGAINST THE GODS</i>
+            </p>
+          </a>
         </div>
+      </div>
 
-        <div class="flex-item-3">
-          <h2><br /></h2>
-          <center>
-            <a
-              href="https://bombylls.itch.io/apparition-apparatuses"
-              target="_blank"
-              ><img src="images/apparitionapparatuses.png" />
-              <h3>apparition apparatuses</h3></a
-            >
-            <h4>a meditation on hauntings, bureacracy, and resignation.</h4>
+      <div class="column executables">
+        <div class="content">
+          <a href="https://organzola.itch.io/an-empty-house" target="_blank">
+            <img src="images/anemptyhouse.gif" />
+            <h4>An Empty House</h4>
+            <p>
+              <i>FIRST-PERSON HORROR-SHOOTER ABOUT A NEVER-ENDING NIGHTMARE</i>
+            </p>
+          </a>
+        </div>
+      </div>
 
-            <a href="https://bombylls.itch.io/thats-a-shame" target="_blank"
-              ><img src="images/thatsashame.png" />
-              <h3>that's a shame</h3></a
-            >
-            <h4>
-              a spiralling journey through the nature of trauma and
-              self-blaming.
-            </h4>
-          </center>
+      <div class="column browser-based">
+        <div class="content">
+          <a
+            href="https://bombylls.itch.io/apparition-apparatuses"
+            target="_blank"
+          >
+            <img src="images/apparitionapparatuses.png" />
+            <h4>Apparition Apparatuses</h4>
+            <p>
+              <i>A MEDITATION ON HAUNTINGS, BUREACRACY, AND RESIGNATION</i>
+            </p>
+          </a>
+        </div>
+      </div>
+
+      <div class="column browser-based">
+        <div class="content">
+          <a href="https://bombylls.itch.io/home" target="_blank">
+            <img src="images/home.png" />
+            <h4>Home</h4>
+            <p>
+              <i>MICROFICTION ABOUT A CHILD LOST IN NEW JERSEY</i>
+            </p>
+          </a>
+        </div>
+      </div>
+
+      <div class="column executables">
+        <div class="content">
+          <a href="https://bombylls.itch.io/gaias-brewery" target="_blank">
+            <img src="images/gaiasbrewery.gif" />
+            <h4>Gaia's Brewery</h4>
+            <p>
+              <i
+                >ISOMETRIC POTION MANAGEMENT SIMULATOR ABOUT HERITAGE AND
+                IDENTITY</i
+              >
+            </p>
+          </a>
+        </div>
+      </div>
+
+      <div class="column browser-based">
+        <div class="content">
+          <a href="https://bombylls.itch.io/thats-a-shame" target="_blank">
+            <img src="images/thatsashame.png" />
+            <h4>That's a Shame</h4>
+            <p>
+              <i
+                >A SPIRALLING JOURNEY THROUGH THE NATURE OF TRAUMA AND
+                SELF-BLAMING</i
+              >
+            </p>
+          </a>
+        </div>
+      </div>
+
+      <div class="column browser-based">
+        <div class="content">
+          <a href="https://bombylls.itch.io/youre-blowin-it" target="_blank">
+            <img src="images/youreblowinit.png" />
+            <h4>You're Blowin' It!</h4>
+            <p>
+              <i>A LOCAL CO-OP ARCADE GAME</i>
+            </p>
+          </a>
+        </div>
+      </div>
+
+      <div class="column executables">
+        <div class="content">
+          <a href="https://bombylls.itch.io/absurd-search" target="_blank">
+            <img src="images/absurdsearch.gif" />
+            <h4>Absurd Search</h4>
+            <p>
+              <i>A WACKY POINT-AND-CLICK ARCADE GAME</i>
+            </p>
+          </a>
         </div>
       </div>
     </div>

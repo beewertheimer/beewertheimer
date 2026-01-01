@@ -4,40 +4,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <title>blog / bee wertheimer</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png" />
   </head>
   <body>
     <div id="nav"></div>
     <div class="content-container">
-      <h2>blog</h2>
-      <a
-        href="https://beewertheimer.com/human-design-is-dead-at-moynihan-train-hall"
-      >
-        <h3>human design is dead at moynihan train hall</h3></a
-      >
-      <h4>november 11, 2025</h4>
-
-      <a href="https://beewertheimer.com/recipe-collection">
-        <h3>recipe collection</h3></a
-      >
-      <h4>july 7, 2025</h4>
-
-      <a href="https://beewertheimer.com/an-interview-with-viditya-voleti">
-        <h3>an interview with viditya voleti</h3></a
-      >
-      <h4>april 25, 2025</h4>
-
-      <a href="https://beewertheimer.com/what-it-means-to-be-the-player-in-nso">
-        <h3>
-          what it means to be the player in <i>needy streamer overload</i>
-        </h3></a
-      >
-      <h4>january 2, 2025</h4>
-
-      <a href="https://beewertheimer.com/what-is-jenny-holzer-hiding">
-        <h3>what is jenny holzer hiding?</h3></a
-      >
-      <h4>november 9, 2024</h4>
+      <h2>/blog</h2>
+      <div id="btn-container-id">
+        <div class="btn-container">
+          <button class="btn active" onclick="filterSelection('all')">
+            show all
+          </button>
+          <button class="btn" onclick="filterSelection('design')">
+            design
+          </button>
+        </div>
+      </div>
     </div>
+
+    <div class="row">
+      <div class="column design">
+        <div class="content">
+          <a
+            href="https://beewertheimer.com/human-design-is-dead-at-moynihan-train-hall"
+          >
+            <img src="images/moynihan-skylight.jpg" />
+            <h4>Human Design is Dead at Moynihan Train Hall</h4>
+            <p><i>NOVEMBER 11, 2025</i></p>
+          </a>
+        </div>
+      </div>
+
+      <div class="column design">
+        <div class="content">
+          <a href="https://beewertheimer.com/an-interview-with-viditya-voleti">
+            <img
+              src="https://img.itch.zone/aW1nLzI0MzYyODU0LnBuZw==/original/H8rmxk.png"
+            />
+            <h4>An Interview with Viditya Voleti</h4>
+            <p><i>APRIL 25, 2025</i></p>
+          </a>
+        </div>
+      </div>
+
+      <div class="column design">
+        <div class="content">
+          <a
+            href="https://beewertheimer.com/what-it-means-to-be-the-player-in-nso"
+          >
+            <img
+              src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1451940/ss_c60613e817ed66dd645cc0c22b037ceb148f16d6.1920x1080.jpg?t=1762834234"
+            />
+            <h4>
+              What it Means to be the Player in <i>Needy Streamer Overload</i>
+            </h4>
+            <p><i>JANUARY 2, 2025</i></p>
+          </a>
+        </div>
+      </div>
+
+      <div class="column design">
+        <div class="content">
+          <a href="https://beewertheimer.com/what-is-jenny-holzer-hiding">
+            <img src="images/holzer.jpg" />
+            <h4>What is Jenny Holzer Hiding?</h4>
+            <p><i>NOVEMBER 9, 2024</i></p>
+          </a>
+        </div>
+      </div>
+    </div>
+
     <div id="footer"></div>
     <script src="script.js"></script>
   </body>
