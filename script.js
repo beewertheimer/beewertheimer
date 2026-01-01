@@ -77,7 +77,6 @@ let footerHTML =   '<div class="footer-container">' +
       '<p>this site was handmade using html, css, and javascript.' + '<br>' + 'thank you for visiting!</p>' +
     '</div>';
   
-
   if (document.getElementById("footer")) {
   document.getElementById("footer").innerHTML = footerHTML;
 }
