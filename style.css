@@ -20,7 +20,7 @@ h1{
 }
 
 h2{
-  font-weight: 400;
+  font-weight: 800;
   text-align: center;
   
 }
@@ -225,6 +225,17 @@ text-align: center;
 
 .flex-item img{
   height: 100%;
+}
+
+.header{
+  margin-top: 10%;
+  margin-bottom: -9%;
+  display: grid;
+  place-items: center;
+}
+
+.header img{
+  width: 200px;
 }
 
 
