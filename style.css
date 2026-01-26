@@ -229,7 +229,7 @@ text-align: center;
 
 .header{
   margin-top: 10%;
-  margin-bottom: -6%;
+  margin-bottom: -6vw;
   display: grid;
   place-items: center;
 }
