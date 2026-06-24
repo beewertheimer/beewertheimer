@@ -1,325 +1,150 @@
 body {
-  margin-right: 4%;
-  margin-left: 4%;
-  margin-top: 2%;
-  margin-bottom: 4%;
-  font-family: "Courier", fixedsys, System, sans-serif;
   font-weight: 400;
-  font-size: 14pt;
+  font-size: 15pt;
+  font-family: "IM Fell Great Primer", serif;
   color: black;
-  background-color: white;
-   height: 100%;
+  background-color: #eae7deff;
+  height: 100%;
   max-height: 100%;
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
   overflow-x: hidden;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+  margin-bottom: 5%;
 }
 
-h1{
-  font-weight: 600;
+.wiggly-header {
+  font-family: "Jacquard 12";
+  font-size: 48pt;
+  display: inline-block;
+  letter-spacing: -7%;
+  transition: 0.1s;
 }
 
-h2{
-  font-weight: 800;
-  text-align: center;
-  
+.wiggly-header:hover {
+  transform: translateY(-15px);
 }
 
-h3{
-  margin-top: -10px;
-  margin-bottom: 50px;
-  text-align: center;
+.nav p {
+  display: inline-block;
+  width: 50px;
+  font-size: 18pt;
+  transition: 0.1s;
 }
 
-.nav-container{
-  padding-top: 2%;
-  padding-bottom: 1%;
-  padding-right: 10%;
-  z-index: 1;
-  text-align: left;
-  display: flex;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: white;
+.nav p:hover {
+  transform: rotate(10deg);
 }
 
-.content-container{
-  padding-top: 100px;
-}
-
-.content-container p{
-  margin-left: 10%;
-  margin-right: 10%;
-  font-size: 12pt;
-  line-height: 1.5;
-}
-
-.content-container img{
-  width: 60%;
-  margin: auto;
-  display: block;
-}
-
-.content-container center{
-  font-size: 12pt;
-}
-
-.nav-container-item{
-  flex: 40%;
-}
-
-.nav-btn{
-  flex: 10%;
-  margin-top: 20px;
-  text-align: right;
-  line-height: 60px;
-  font-weight: 500;
-}
-
-.nav-btn a{
-  font-style: normal;
-  color: black;
-  text-decoration: none;
-}
-
-.nav-btn a:hover{
-  font-style: italic;
-}
-
-.nav-btn a:hover:before{
-  content:"/";
-}
-
-.btn-container{
-margin: auto;
-display: block;
-text-align: center; 
-}
-
-.btn{
-  border: none;
-  background-color: none;
-  font-family: "Courier", fixedsys, System, sans-serif;
+.nav a {
   color: black;
 }
 
-.row {
-  margin: 8px -16px;
+.art-row-1 img {
+  height: 28.25vw;
 }
 
-/* Add padding BETWEEN each column (if you want) */
-.row,
-.row > .column {
-  padding: 8px;
+.nav a:hover {
+  opacity: 50%;
 }
 
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 20%;
-  display: none; /* Hide columns by default */
-}
-
-/* Clear floats after rows */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-/* Content */
-.content {
-  background-color: white;
-  padding: 10px;
-  height: 18em;
-}
-
-.content a{
-  color: black;
-  text-decoration: none;
-}
-
-.content a:hover{
-  font-style: italic;
-  color: gray;
-}
-
-.content h4{
-  font-weight: 400;
-  font-size: 11pt;
-}
-
-.content img{
-  object-fit: cover;
-  width: 100%;
-  height: 10vw;
-  margin-bottom: -10px;
-}
-
-.content p{
-  font-size: 9pt;
-  color: grey;
-}
-
-/* The "show" class is added to the filtered elements */
-.show {
-  display: block;
-}
-
-.footer-container{
-  margin-top: 10%;
-  text-align: center;
-  width: 100%;
-}
-
-.footer-container img{
-  width: 20px;
-  margin-left: 10px;
-}
-
-.footer-container p{
-  font-size: 8pt;
-}
-
-.flexbox{
+.flex-container {
   display: flex;
+  gap: 10px;
 }
 
-.flexbox img{
-  height: 500px;
+.flex-70 {
+  flex: 70%;
+}
+
+.flex-30 {
+  flex: 30%;
+}
+
+.game-styling img {
+  height: 13vw;
+}
+
+.iframe-styling {
+  margin-left: -3%;
+  margin-right: -3%;
+}
+
+iframe {
   width: 100%;
-  object-fit: cover;
-  padding: 3%;
-}
-
-.flexbox-2{
-  display: flex;
-}
-
-.flexbox-2 img{
-  width: 100%;
-  object-fit: cover;
-  padding: 2%;
-}
-
-.flexbox-3{
-  display: flex;
-}
-
-.flexbox-3 img{
   height: 300px;
-  width: 60%;
-  object-fit: cover;
-  padding: 2%;
 }
 
-.flex-item{
-  flex: 50%;
+center {
+  padding-bottom: 100px;
 }
 
-.flex-item img{
-  height: 100%;
+a {
+  color: #2f7044;
+  transition: 0.1s;
 }
 
-.header{
-  margin-top: 10em;
-  margin-bottom: -6vw;
-  display: grid;
-  place-items: center;
+a:hover {
+  opacity: 50%;
 }
 
-.header img{
-  width: 200px;
+h1 {
+  font-family: "Jacquard 12";
+  font-size: 38pt;
 }
 
-  .about{
-    text-align: center;
-  }
-
-  .about img{
-    width: 250px;
-  }
-
-
-@media (max-width: 900px){
-
-  body{
-    margin-right: 2%;
-  margin-left: 2%;
-  margin-top: 2%;
-  margin-bottom: 2%;
-height: 100%;
-  max-height: 100%;
-  overflow: scroll;
-  -webkit-overflow-scrolling: touch;
-  overflow-x: hidden;
-  }
-
-
-
-.header{
-  margin-top: 15em;
-  margin-bottom: -70%;
+h2 {
+  font-size: 18pt;
 }
 
-  .content-container{
-    margin-top: 60%;
-  }
+h3 {
+  font-family: "IM Fell Great Primer SC";
+  font-size: 20pt;
+  font-weight: 300;
+  text-align: center;
+}
 
-  .content-container img{
-    width: 100%;
+h4 {
+  font-size: 20pt;
+  rotate: -4deg;
+}
+
+p {
+  font-size: 14pt;
+}
+
+@media (max-width: 900px) {
+  body {
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     height: 100%;
+    max-height: 100%;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: hidden;
   }
 
-  .nav-container{
+  .flex-container {
     display: block;
-    position: absolute;
-    top: 0;
-    background-color: white;  
   }
-  .nav-container-item{
-    width: 100%;
+
+  .flex-30 {
     text-align: center;
-    font-size: 12pt;
-  }
-  .nav-btn{
-    text-align: center;
-    line-height: 10px;
   }
 
-  .column{
-    width: 100%;
+  .iframe-styling {
+    margin-top: -3%;
   }
 
-  .content{
-    height: 100%;
-  }
-
-  .content img{
+  .art-row-1 img {
     width: 100%;
     height: 100%;
   }
-
-  .content-container p{
-  margin-left: 0;
-  margin-right: 0;
-}
-
-.flexbox, .flexbox-2{
-  display: block;
-}
-
-.flexbox-3 img{
-  width: 100%;
-  height: 100%;
-}
-
-.about img{
-    width: 200px;
+  .game-styling img {
+    height: 250px;
   }
 }
