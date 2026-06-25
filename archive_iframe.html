@@ -10,92 +10,258 @@
   </head>
   <body>
     <div class="iframe-styling">
-      <p>
-        <a
-          href="https://kotaku.com/day-of-the-devs-summer-game-fest-cool-indie-games-2000703470"
-          target="_blank"
-          >20 awesome games from the summer game fest day of the devs
-          showcase</a
-        >
-        — kotaku
-      </p>
-      <p>
-        <a
-          href="https://kotaku.com/stranger-than-heaven-yakuza-like-a-dragon-bunta-sugawara-dead-actor-likeness-rgg-studio-2000694063"
-          target="_blank"
-          >new yakuza prequel game uses the likeness of an actor who died 12
-          years ago</a
-        >
-        — kotaku
-      </p>
-      <p>
-        <a
-          href="https://kotaku.com/gabe-newell-lobbied-elon-musk-to-meet-with-visionary-designer-hideo-kojima-over-their-mutual-interest-in-ai-and-space-2000692556"
-          target="_blank"
-          >gabe newell lobbied elon musk to meet with ‘visionary' designer hideo
-          kojima over their mutual interest in ai and space</a
-        >
-        — kotaku
-      </p>
-      <p>
-        <a
-          href="https://kotaku.com/alien-isolation-2-teaser-trailer-sega-2000690735"
-          target="_blank"
-          >a surprise teaser for alien: isolation 2 gives fans fresh hope for a
-          sequel 12 years later</a
-        >
-        — kotaku
-      </p>
-      <p>
-        <a
-          href="https://kotaku.com/my-hero-academia-voice-actor-dubs-streamers-apology-for-cheating-on-his-girlfriend-and-it-doesnt-go-well-2000690726"
-          target="_blank"
-          >my hero academia voice actor dubs streamer's apology for cheating on
-          his girlfriend and it doesn't go well</a
-        >
-        — kotaku
-      </p>
-      <p>
-        <a href="https://www.avclub.com/dosa-divas-game-review" target="_blank"
-          >dosa divas strips the love from cooking</a
-        >
-        — a.v. club
-      </p>
-      <p>
-        <a
-          href="https://kotaku.com/northernlion-supercruise-streamer-twitch-canceled-why-2000688303"
-          target="_blank"
-          >northernlion cancels streamer supercruise just three days after
-          announcing it, surprising no one but disappointing everyone</a
-        >
-        — kotaku
-      </p>
-      <p>
-        <a
-          href="https://kotaku.com/dark-souls-rpg-nostalgia-taurus-demon-2000682716"
-          target="_blank"
-          >i played dark souls for the first time in 2026 and it really is the
-          best ever</a
-        >
-        — kotaku
-      </p>
-      <p>
-        <a
-          href="https://aftermath.site/a-love-letter-to-girl-games/"
-          target="_blank"
-          >a love letter to ‘girl games'</a
-        >
-        — aftermath
-      </p>
-      <p>
-        <a
-          href="https://www.avclub.com/games-addiction-recovery"
-          target="_blank"
-          >you are not in control: how games use player agency to explore
-          addiction</a
-        >
-        — a.v. club
-      </p>
+      <div id="btn-container-id">
+        <div class="btn-container">
+          ⚘<button class="btn active" onclick="filterSelection('all')">
+            show all
+          </button>
+          ⚘<button class="btn" onclick="filterSelection('features')">
+            features
+          </button>
+          ⚘<button class="btn" onclick="filterSelection('news')">news</button>
+          ⚘<button class="btn" onclick="filterSelection('reviews')">
+            reviews
+          </button>
+          ⚘<button class="btn" onclick="filterSelection('interviews')">
+            interviews
+          </button>
+          ⚘<button class="btn" onclick="filterSelection('lists')">lists</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column lists">
+          <div class="content">
+            <p>
+              <a
+                href="https://kotaku.com/day-of-the-devs-summer-game-fest-cool-indie-games-2000703470"
+                target="_blank"
+                >20 awesome games from the summer game fest day of the devs
+                showcase</a
+              >
+              — kotaku
+            </p>
+          </div>
+        </div>
+        <div class="column news">
+          <div class="content">
+            <p>
+              <a
+                href="https://kotaku.com/stranger-than-heaven-yakuza-like-a-dragon-bunta-sugawara-dead-actor-likeness-rgg-studio-2000694063"
+                target="_blank"
+                >new yakuza prequel game uses the likeness of an actor who died
+                12 years ago</a
+              >
+              — kotaku
+            </p>
+          </div>
+        </div>
+        <div class="column news">
+          <div class="content">
+            <p>
+              <a
+                href="https://kotaku.com/lords-of-the-fallen-2-female-armor-sets-thebackgroundnpc-2000693666"
+                target="_blank"
+                >lords of the fallen 2 studio paid a gaming youtuber to promote
+                its boring bikini armor</a
+              >
+              — kotaku
+            </p>
+          </div>
+        </div>
+        <div class="column news">
+          <div class="content">
+            <p>
+              <a
+                href="https://kotaku.com/gabe-newell-lobbied-elon-musk-to-meet-with-visionary-designer-hideo-kojima-over-their-mutual-interest-in-ai-and-space-2000692556"
+                target="_blank"
+                >gabe newell lobbied elon musk to meet with ‘visionary' designer
+                hideo kojima over their mutual interest in ai and space</a
+              >
+              — kotaku
+            </p>
+          </div>
+        </div>
+        <div class="column news">
+          <div class="content">
+            <p>
+              <a
+                href="https://kotaku.com/alien-isolation-2-teaser-trailer-sega-2000690735"
+                target="_blank"
+                >a surprise teaser for alien: isolation 2 gives fans fresh hope
+                for a sequel 12 years later</a
+              >
+              — kotaku
+            </p>
+          </div>
+        </div>
+        <div class="column news">
+          <div class="content">
+            <p>
+              <a
+                href="https://kotaku.com/my-hero-academia-voice-actor-dubs-streamers-apology-for-cheating-on-his-girlfriend-and-it-doesnt-go-well-2000690726"
+                target="_blank"
+                >my hero academia voice actor dubs streamer's apology for
+                cheating on his girlfriend and it doesn't go well</a
+              >
+              — kotaku
+            </p>
+          </div>
+        </div>
+        <div class="column reviews">
+          <div class="content">
+            <p>
+              <a
+                href="https://www.avclub.com/dosa-divas-game-review"
+                target="_blank"
+                >dosa divas strips the love from cooking</a
+              >
+              — a.v. club
+            </p>
+          </div>
+        </div>
+        <div class="column news">
+          <div class="content">
+            <p>
+              <a
+                href="https://kotaku.com/northernlion-supercruise-streamer-twitch-canceled-why-2000688303"
+                target="_blank"
+                >northernlion cancels streamer supercruise just three days after
+                announcing it, surprising no one but disappointing everyone</a
+              >
+              — kotaku
+            </p>
+          </div>
+        </div>
+        <div class="column features">
+          <div class="content">
+            <p>
+              <a
+                href="https://kotaku.com/dark-souls-rpg-nostalgia-taurus-demon-2000682716"
+                target="_blank"
+                >i played dark souls for the first time in 2026 and it really is
+                the best ever</a
+              >
+              — kotaku
+            </p>
+          </div>
+        </div>
+        <div class="column features">
+          <div class="content">
+            <p>
+              <a
+                href="https://aftermath.site/a-love-letter-to-girl-games/"
+                target="_blank"
+                >a love letter to ‘girl games'</a
+              >
+              — aftermath
+            </p>
+          </div>
+        </div>
+        <div class="column features">
+          <div class="content">
+            <p>
+              <a
+                href="https://www.avclub.com/games-addiction-recovery"
+                target="_blank"
+                >you are not in control: how games use player agency to explore
+                addiction</a
+              >
+              — a.v. club
+            </p>
+          </div>
+        </div>
+        <div class="column lists">
+          <div class="content">
+            <p>
+              <a
+                href="https://kotaku.com/indie-game-computer-world-showcase-steam-demo-2000678906"
+                target="_blank"
+                >this new games showcase just featured 15 of the coolest,
+                weirdest games out there</a
+              >
+              — kotaku
+            </p>
+          </div>
+        </div>
+        <div class="column news">
+          <div class="content">
+            <p>
+              <a
+                href="https://kotaku.com/fortnite-v-buck-price-boycott-epic-2000678759"
+                target="_blank"
+                >let them eat skins: fortnite players are calling for a boycott
+                over v-buck price hikes</a
+              >
+              — kotaku
+            </p>
+          </div>
+        </div>
+        <div class="column news">
+          <div class="content">
+            <p>
+              <a
+                href="https://kotaku.com/fortnite-leak-epic-games-adirafn-south-park-2000676751"
+                target="_blank"
+                >major fortnite leaker actually worked for epic games</a
+              >
+              — kotaku
+            </p>
+          </div>
+        </div>
+        <div class="column news">
+          <div class="content">
+            <p>
+              <a
+                href="https://kotaku.com/legend-zelda-dating-link-patricia-summersett-movie-2000674766"
+                target="_blank"
+                >legend of zelda actor has thoughts on live-action movie and
+                whether link and zelda are dating</a
+              >
+              — kotaku
+            </p>
+          </div>
+        </div>
+        <div class="column news">
+          <div class="content">
+            <p>
+              <a
+                href="https://kotaku.com/stardew-valley-clint-marriage-1-7-update-2000674574"
+                target="_blank"
+                >stardew valley fans aren't holidng back how much they hate this
+                guy</a
+              >
+              — kotaku
+            </p>
+          </div>
+        </div>
+        <div class="column features">
+          <div class="content">
+            <p>
+              <a
+                href="https://www.avclub.com/firewatch-10th-anniversary-toxic-masculinity"
+                target="_blank"
+                >10 years later, firewatch's critique of masculinity is just a
+                different shade of toxicity</a
+              >
+              — a.v. club
+            </p>
+          </div>
+        </div>
+        <div class="column lists">
+          <div class="content">
+            <p>
+              <a
+                href="https://kotaku.com/stardew-valley-tips-tricks-beginner-2000669702"
+                target="_blank"
+                >15 tips if you're coming back to stardew valley in 2026</a
+              >
+              — kotaku
+            </p>
+          </div>
+        </div>
+      </div>
+
       <p>(more clippings to come! forgive me, i'm lazy.)</p>
     </div>
     <script src="script.js"></script>

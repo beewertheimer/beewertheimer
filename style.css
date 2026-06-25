@@ -115,6 +115,59 @@ p {
   font-size: 14pt;
 }
 
+.btn {
+  border: none;
+  text-align: left;
+  margin-right: 5%;
+  font-family: "IM Fell Great Primer", serif;
+  font-size: 12pt;
+  background-color: #eae7deff;
+  color: #2f7044;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.btn:hover {
+  opacity: 50%;
+}
+
+.row {
+  width: 100%;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  width: 100%;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  display: none; /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Content */
+.content {
+  width: 100%;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
 @media (max-width: 900px) {
   body {
     margin-right: 5%;
