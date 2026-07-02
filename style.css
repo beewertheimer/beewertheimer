@@ -27,6 +27,10 @@ body {
   transform: translateY(-15px);
 }
 
+.nav {
+  padding-bottom: 100px;
+}
+
 .nav p {
   display: inline-block;
   width: 50px;
@@ -55,12 +59,20 @@ body {
   gap: 10px;
 }
 
+.flex-85 {
+  flex: 85%;
+}
+
 .flex-70 {
   flex: 70%;
 }
 
 .flex-30 {
   flex: 30%;
+}
+
+.flex-15 {
+  flex: 15%;
 }
 
 .game-styling img {
@@ -74,10 +86,6 @@ body {
 
 iframe {
   width: 100%;
-}
-
-center {
-  padding-bottom: 100px;
 }
 
 a {
@@ -101,6 +109,8 @@ h2 {
 h3 {
   font-size: 16pt;
   font-weight: 300;
+  text-align: center;
+  padding-top: 10pt;
 }
 
 h4 {
@@ -180,10 +190,6 @@ p {
 
   .flex-container {
     display: block;
-  }
-
-  .flex-30 {
-    text-align: center;
   }
 
   .iframe-styling {
