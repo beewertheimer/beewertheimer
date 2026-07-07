@@ -191,6 +191,7 @@ p {
   .flex-container {
     display: block;
     width: 100%;
+    text-align: center;
   }
 
   .iframe-styling {
@@ -203,5 +204,10 @@ p {
   }
   .game-styling img {
     height: 250px;
+  }
+
+  .game-styling img {
+    width: 80%;
+    height: 80%;
   }
 }
