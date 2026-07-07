@@ -190,6 +190,7 @@ p {
 
   .flex-container {
     display: block;
+    width: 100%;
   }
 
   .iframe-styling {
